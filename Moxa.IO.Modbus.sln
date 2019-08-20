@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B10334F4-3527-4233-8F86-1AEC4EDE9861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moxa.IO.Modbus.Sample", "sample\Moxa.IO.Modbus.Sample\Moxa.IO.Modbus.Sample.csproj", "{D0A38DB3-0EB9-427D-9442-E3C318CF3454}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moxa.IO.Modbus", "src\Moxa.IO.Modbus\Moxa.IO.Modbus.csproj", "{A3363AFE-98D0-4A64-B8B1-B5BD8A45032E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0A38DB3-0EB9-427D-9442-E3C318CF3454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A38DB3-0EB9-427D-9442-E3C318CF3454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A38DB3-0EB9-427D-9442-E3C318CF3454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A38DB3-0EB9-427D-9442-E3C318CF3454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3363AFE-98D0-4A64-B8B1-B5BD8A45032E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3363AFE-98D0-4A64-B8B1-B5BD8A45032E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3363AFE-98D0-4A64-B8B1-B5BD8A45032E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3363AFE-98D0-4A64-B8B1-B5BD8A45032E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0A38DB3-0EB9-427D-9442-E3C318CF3454} = {B10334F4-3527-4233-8F86-1AEC4EDE9861}
+		{A3363AFE-98D0-4A64-B8B1-B5BD8A45032E} = {B10334F4-3527-4233-8F86-1AEC4EDE9861}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B917AF0-2A6C-4226-9FAB-EFB9B049ECA9}
+	EndGlobalSection
+EndGlobal
