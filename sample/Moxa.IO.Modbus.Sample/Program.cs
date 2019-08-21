@@ -23,7 +23,7 @@ namespace Moxa.IO.Modbus.Sample
                 }
             };
             client.Start();
-            client.BeginStatusListener();
+            client.BeginListener();
             
             string cmd = null;
 

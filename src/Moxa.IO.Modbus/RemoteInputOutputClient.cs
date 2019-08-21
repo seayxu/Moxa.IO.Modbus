@@ -80,7 +80,7 @@ namespace Moxa.IO.Modbus
             BeginStatusListener();
         }
 
-        public void BeginStatusListener()
+        private void BeginStatusListener()
         {
             statusToken = new CancellationTokenSource();
             statusTask = Task.Factory.StartNew(StatusLoop, statusToken.Token, TaskCreationOptions.LongRunning, TaskScheduler.Default);
